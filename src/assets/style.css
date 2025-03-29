@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* base.css */
+
+/* Importiere zuerst die Standard-Styles von Storefront UI */
+@import '@storefront-ui/vue/styles.css';
+
+/* Hier kannst du globale CSS-Regeln oder Variable Overrides hinzufügen */
+:root {
+  /* Beispiel: Überschreibe eine primäre Farbe */
+  --sfui-primary-color: #0070f3;
+  /* Weitere CSS-Variablen können hier gesetzt werden */
+}
+
+/* Allgemeine Resets oder globale Stile */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+}
+
+/* Eigene globale Klassen oder Layout-Regeln */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
